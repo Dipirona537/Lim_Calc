@@ -23,18 +23,18 @@ public class testescanner {
             //lim2 = (Math.pow(xneg, 2)-(2*x)+1) / (xneg-1);
             double lim = ((lim1+lim2)/2);
             if (x != 1) {
-                System.out.println("Limite tende a " + lim + "\n" + lim1 + "\n" + lim2);
+                System.out.println(" Limite tende a " + lim + "\n" + lim1 + "\n" + lim2);
             }else {
                 if (Math.round(lim1) == Math.round(lim2)) {
-                    System.out.println("Limite tende a " + Math.round(lim1) + "\n" + lim1 + "\n" + lim2);
+                    System.out.println(" Limite tende a " + Math.round(lim1) + "\n" + lim1 + "\n" + lim2);
                 }else
                 {
                     lim = lim1/lim2;
-                    System.out.println("Limite tende a " +lim + "\n" + lim1 + "\n" + lim2);
+                    System.out.println(" Limite tende a " +lim + "\n" + lim1 + "\n" + lim2);
                 }
             }
             if (Math.round(lim1) != Math.round(lim2)){
-                System.out.println("Confira sua equacao, os limites sao diferentes. x != "+x);
+                System.out.println(" Confira sua equacao, os limites sao diferentes. x != "+x);
             }
 
 
